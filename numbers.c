@@ -6,19 +6,15 @@ int main()
     scanf("%d", &n);
     int arr[n];
     printf("enter %d integers: \n",n);
-    for (int i=0; i<n; i++)
-    {
+    for (int i=0; i<n; i++){
         scanf("%d", &arr[i]);
-        if (arr[i]>0)
-        {
+        if (arr[i]>0){
             pos++;
         }
-        else if (arr[i]<0)
-        {
+        else if (arr[i]<0){
             neg++;
         }
-        if (arr[i]%2==0)
-        {
+        if (arr[i]%2==0){
             even++;
         }
         else{
