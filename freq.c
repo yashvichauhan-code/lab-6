@@ -6,16 +6,13 @@ int main()
     scanf("%d", &n);
     int arr[n];
     printf("enter %d integers: \n", n);
-    for (i=0; i<n; i++)
-    {
+    for (i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
     printf("enter num whose frequency is to be found: ");
     scanf("%d", &num);
-    for (i=0; i<n; i++)
-    {
-        if (arr[i]==num)
-        {
+    for (i=0; i<n; i++){
+        if (arr[i]==num){
             freq++;
         }
     }
