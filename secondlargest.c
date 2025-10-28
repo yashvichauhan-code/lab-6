@@ -6,7 +6,7 @@ int main()
     printf("enter number of integers you want to input: ");
     scanf("%d", &num);
     int n[num];
-    printf("enter %d intergers\n",num);
+    printf("enter %d integers\n",num);
     for (int i=0; i<=num; i++){
         scanf("%d", &n[i]);
     }
@@ -14,7 +14,8 @@ int main()
     if (n[0] > n[1]) {
         large = n[0];
         large2 = n[1];
-    } else {
+    } 
+    else {
         large = n[1];
         large2 = n[0];
     }
